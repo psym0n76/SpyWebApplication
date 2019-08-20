@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spy.WebApi", "Spy.WebApi\Spy.WebApi.csproj", "{58F63492-920B-4B21-9AC3-F91A756055CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spy.WebApi", "Spy.WebApi\Spy.WebApi.csproj", "{58F63492-920B-4B21-9AC3-F91A756055CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spy.Library", "Spy.Library\Spy.Library.csproj", "{6A99636D-4979-422F-8A4F-E4041495FDCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spy.Library.Tests", "Spy.Library.Tests\Spy.Library.Tests.csproj", "{FC7DD086-553F-4D8F-B774-21FF3AB2FBD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spy.WebApi.Tests", "Spy.WebApi.Tests\Spy.WebApi.Tests.csproj", "{7141AA2B-C84D-48D2-B0B1-2C0498853C6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{58F63492-920B-4B21-9AC3-F91A756055CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58F63492-920B-4B21-9AC3-F91A756055CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58F63492-920B-4B21-9AC3-F91A756055CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A99636D-4979-422F-8A4F-E4041495FDCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A99636D-4979-422F-8A4F-E4041495FDCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A99636D-4979-422F-8A4F-E4041495FDCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A99636D-4979-422F-8A4F-E4041495FDCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC7DD086-553F-4D8F-B774-21FF3AB2FBD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC7DD086-553F-4D8F-B774-21FF3AB2FBD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC7DD086-553F-4D8F-B774-21FF3AB2FBD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC7DD086-553F-4D8F-B774-21FF3AB2FBD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7141AA2B-C84D-48D2-B0B1-2C0498853C6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7141AA2B-C84D-48D2-B0B1-2C0498853C6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7141AA2B-C84D-48D2-B0B1-2C0498853C6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7141AA2B-C84D-48D2-B0B1-2C0498853C6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
