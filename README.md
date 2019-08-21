@@ -1,4 +1,4 @@
-This ASP.Core Web Application will take a Message and SpyName name as input parameters and return true
+This ASP.Core Web Application will take a Message and SpyName as input parameters and return true
 if the SpyName is hidden within the message.
 
 Set up a GET request (Postman) to the following URL
